@@ -1,0 +1,137 @@
+@charset "UTF-8";
+#title {
+    background-color: #1ba0e2;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 10px;;
+}
+#signup{
+    width: 400px;
+    border: 1px solid #c8cbcf;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 12px 10px 15px #818182;
+    z-index: 1;
+    display: none;
+    top: 13%;
+}
+#signupForm > div:first-child{
+    height: 40px;
+    background-color: #1ba0e2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    padding-top: 5px;
+    font-size: 17px;
+}
+#IdCard > input, #phonenumber > input,#fullname > input, #username > input , #password > input,
+#re-password > input, #submit > input{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#phonenumber i {
+    color: #087e8b;
+    font-size: 27px;
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+#IdCard i {
+    color: #087e8b;
+    font-size: 27px;
+    position: absolute;
+    left: 30px;
+    top: 135px;
+}
+#fullname i {
+    color: #087e8b;
+    font-size: 27px;
+    position: absolute;
+    left: 30px;
+    top: 203px;
+}
+#username i {
+    color: #087e8b;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 272px;
+}
+#password i {
+    color: #087e8b;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 340px;
+}
+#submit>input:hover{
+    background-color: #f96d01;
+    transition: all 0.3s;
+}
+#submit>input{
+    font-weight: bold;
+    color: white;
+    background-color: #3b5998;
+    transition: all 0.4s;
+}
+#login a button {
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.required{
+    color: #ff5835;
+    font-weight: bold;
+    position: absolute;
+    left: 310px;
+}
+.error {
+    color: #ff5835;
+    position: absolute;
+    left: 322px;
+    font-size: 13px;
+}
+#phonenumber .error {
+    top: 65px;
+}
+#IdCard .error {
+    top: 135px;
+}
+#fullname .error {
+    top: 205px;
+}
+#username .error {
+    top: 275px;
+}
+#password .error {
+    top: 335px;
+}
+#re-password .error {
+    top: 405px;
+}
+#phonenumber .required{
+    top: 65px;
+}
+#IdCard .required {
+    top: 135px;
+}
+#fullname .required {
+    top: 205px;
+}
+#username .required {
+    top: 275px;
+}
+#password .required {
+    top: 335px;
+}
+#re-password .required {
+    top: 405px;
+}

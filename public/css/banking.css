@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#bankingConnect {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#banking p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+#banking {
+    background-color: #4dc0b5;
+}
