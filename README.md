@@ -1,10 +1,8 @@
-# TripsVN
-Online plane ticket and hotel booking
-# front-end: HTML5, CSS3, Javascript, Jquery library, Bootstrap 4.
-# back-end: MySQL database, PHP (Laravel ).
-#Báo cáo chi tiết:https://bit.ly/3dixZNQ
-#Sơ lược
-# Các chức năng của website:
+
+# TripsVN - Online plane ticket and hotel booking </span>
+## Báo cáo chi tiết:https://bit.ly/3dixZNQ
+## Sơ lược
+## Các chức năng của website:
 1. Đăng nhập hệ thống:
 Người dùng đăng ký bằng số điện thoại, mỗi số điện thoại chỉ được đăng ký 1 lầm / username
 
